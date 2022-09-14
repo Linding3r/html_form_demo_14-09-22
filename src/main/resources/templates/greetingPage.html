@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Greeting Page</title>
+  <link rel="stylesheet" th:href="@{style.css}" href="../static/style.css">
+</head>
+<body>
+  <div>Hello <span th:text="${fullname}">NAME</span>. </div>
+  <div>Your age is <span th:text="${personage}">AGE</span> you old shit!</div>
+</body>
+</html>
